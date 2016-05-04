@@ -1,0 +1,107 @@
+/********************
+GENERAL
+********************/
+
+header {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3.00em;
+  margin: 15px 0;
+  font-weight: normal;
+  line-height:0.8em;
+  text-align: center;
+  border-bottom: 5px solid #e1e1ea;
+  margin-bottom: 20px;
+} 
+
+body {
+  margin: 100px 150px 100px 80px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px; 
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+
+li a {
+  list-style: none;
+}
+
+#primary {
+  width: 50%;
+  float: right;
+  margin: auto;
+  font-size: 1.30em;
+  padding: inherit;
+  display:inline-block;
+}
+
+#secondary {
+  width: 40%;
+  float: left;
+  display:inline-block;
+  margin-right: 20px;
+}
+
+footer{
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #000;
+}
+
+/********************
+LIST ITEMS
+********************/
+
+
+ul li {
+  font-size: 1.00em;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin-right: 40px;
+}
+
+
+/********************
+COLORS
+********************/
+
+/* links */
+a{
+  color: #00AC8C;
+}
+
+
+/* nav link*/
+nav a, nav a:visited {
+  color: #000;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #00AC8C;
+}
+
+/**************
+?
+**************/
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.jpg');
+}
+
+.contact-info li.facebook a {
+  background-image: url('../img/Facebook-icon.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
